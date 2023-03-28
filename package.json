@@ -1,0 +1,44 @@
+{
+  "name": "scrapify",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a JavaScript-based project that uses the Selenium WebDriver to automate different processes of different web pages, such as login and UI validation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmora47/scrapify.git"
+  },
+  "keywords": [
+    "N/A"
+  ],
+  "author": "Andrey Mora V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinmora47/scrapify/issues"
+  },
+  "homepage": "https://github.com/kevinmora47/scrapify#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "chromedriver": "^110.0.0",
+    "geckodriver": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "playwright": "^1.31.2",
+    "promisify": "^0.0.3",
+    "selenium-webdriver": "^4.8.1",
+    "tesseract.js": "^4.0.2",
+    "wdio-video-reporter": "^3.5.0"
+  }
+}
