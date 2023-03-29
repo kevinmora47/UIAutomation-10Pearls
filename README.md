@@ -26,7 +26,7 @@ To get started with this project, follow the instructions below:
 
 1. Clone this repository to your local machine using Git.
 2. Open a terminal window and navigate to the project directory.
-3. Install the required packages using npm by running the following command:
+3. Install the required packages using npm by running the following command:npn run start
 
 ## Running the Tool
 
