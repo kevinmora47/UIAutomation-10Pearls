@@ -1,58 +1,41 @@
-# Automation of <https://10pearls.com/>
+# Project Name: Web Interaction Tool
 
-This project aims to automate the UI of the <https://10pearls.com/> website using Cypress.
+This project is designed to interact with a website, specifically the URL tutorialspoint.com/html/html_iframes.htm, in order to navigate through the page, interact with specific links, and retrieve important information about the page.
 
-## Overview
+## Purpose of the Project
 
-The automation project covers the following scenarios:
+The purpose of this project is to provide a tool that can automate web interactions and gather valuable data from websites. Specifically, the tool is designed to navigate to a specific web page and interact with the "About us" link, retrieve the URL of the new page, and gather lists of all URLs, buttons, and text input fields on the page. In addition, the tool will also create an account and log into the website.
 
-- Verify the navigation bar and footer are displayed on every page.
-- Verify the "Work With Us" button redirects to the career page.
-- Verify the contact form is functional and successful submission triggers a confirmation message.
+## Getting Started
 
-## Prerequisites
+To get started with this project, follow the instructions below:
 
-- Node.js and npm should be installed on the system.
-- The latest version of Cypress should be installed. You can install it by running the following command:
+### Prerequisites
 
-  ```
-  npm install cypress
-  ```
+- Node.js installed on your machine
+- Selenium WebDriver installed
+- Chrome or Firefox web browser installed
 
-## Running the Tests
+### Dependencies
 
-To run the tests, follow these steps:
+- `selenium-webdriver` package
+- `selenium-webdriver/chrome.js` package
+- `fs` package
 
-1. Clone the repository to your local machine.
-2. Open a terminal in the root directory of the project.
-3. Run the following command to open the Cypress Test Runner:
+### Installing
 
-   ```
-   npx cypress open
-   ```
+1. Clone this repository to your local machine using Git.
+2. Open a terminal window and navigate to the project directory.
+3. Install the required packages using npm by running the following command:
 
-4. Click on the test file you want to run, i.e., `navigation.spec.js`, `work-with-us.spec.js`, or `contact-form.spec.js`.
+## Running the Tool
 
-## Test Files
+To run the web interaction tool, follow the instructions below:
 
-The project has the following test files:
+1. Open a terminal window and navigate to the project directory.
+2. Run the following command to start the tool:
 
-### navigation.spec.js
+3. The tool will then load the tutorialspoint.com/html/html_iframes.htm web page, navigate to the "About us" link, and gather the required information.
+4. The tool will output the information to both the console and to an appended file.
 
-This test file verifies that the navigation bar and footer are displayed on every page of the website.
-
-### work-with-us.spec.js
-
-This test file verifies that the "Work With Us" button on the home page redirects to the career page.
-
-### contact-form.spec.js
-
-This test file verifies that the contact form is functional, and a successful submission triggers a confirmation message.
-
-## Configuration
-
-The `cypress.json` file contains the configuration for the project. You can modify the configuration according to your needs.
-
-## Conclusion
-
-This project aims to automate the UI of the <https://10pearls.com/> website using Cypress. The tests cover the essential functionality of the website and can be used as a starting point for further automation.
+Thank you for using the Web Interaction Tool!
